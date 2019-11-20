@@ -8,5 +8,28 @@
     <artifactId>listdb-spring-boot-starter</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <listdb.bindings.version>1.0-SNAPSHOT</listdb.bindings.version>
+        <spring-boot.version>2.2.1.RELEASE</spring-boot.version>
+    </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.jhallat.listdb</groupId>
+            <artifactId>listdb-bindings</artifactId>
+            <version>${listdb.bindings.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
+
+    </dependencies>
 </project>
