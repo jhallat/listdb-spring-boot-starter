@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "listdb",
+      "type": "com.jhallat.listdb.starter.ListDBProperties",
+      "sourceType": "com.jhallat.listdb.starter.ListDBProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "listdb.host",
+      "type": "java.lang.String",
+      "sourceType": "com.jhallat.listdb.starter.ListDBProperties"
+    },
+    {
+      "name": "listdb.port",
+      "type": "java.lang.String",
+      "sourceType": "com.jhallat.listdb.starter.ListDBProperties"
+    }
+  ],
+  "hints": []
+}
